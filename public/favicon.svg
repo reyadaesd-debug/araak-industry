@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <!-- Dark Industrial Background for Favicon Contrast -->
+  <rect width="256" height="256" rx="52" fill="#0B1519"/>
+  
+  <!-- ARAAK Geometric R Emblem -->
+  <g transform="translate(20, 26) scale(1.7)">
+    <!-- Top Gold Parallelogram Bar -->
+    <path d="M 68 12 L 114 12 L 86 42 L 40 42 Z" fill="#D4AF37"/>
+    
+    <!-- Upper Teal Fold Horizontal Top -->
+    <path d="M 8 28 L 74 28 L 48 56 L 8 56 Z" fill="#0B7293"/>
+    
+    <!-- Main Teal Center Body & Diagonal Leg -->
+    <path d="M 8 28 L 48 56 L 102 56 L 62 112 L 0 112 L 38 60 L 8 28 Z" fill="#0884A8"/>
+    <path d="M 48 56 L 102 56 L 62 112 L 8 112 Z" fill="#0B7293"/>
+
+    <!-- Bottom-Right Gold Parallel Diagonal Bar -->
+    <path d="M 54 74 L 92 74 L 116 112 L 78 112 Z" fill="#C5A059"/>
+
+    <!-- Bottom-Left Gold Corner Triangle -->
+    <path d="M 0 84 L 28 112 L 0 112 Z" fill="#C5A059"/>
+  </g>
+</svg>

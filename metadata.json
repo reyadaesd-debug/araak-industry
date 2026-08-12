@@ -1,0 +1,6 @@
+{
+  "name": "ARAAK INDUSTRY | اراك الصناعية",
+  "description": "المنصة الرقمية والمورّد الصناعي المعتمد للأنظمة المعدنية وإكسسوارات البناء - اراك الصناعية",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

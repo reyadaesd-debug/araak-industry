@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Noto Sans Arabic', 'IBM Plex Sans Arabic', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6, .font-serif, .font-heading {
+    font-family: 'Cairo', 'Noto Sans Arabic', sans-serif !important;
+  }
+
+  .font-sans, .font-body {
+    font-family: 'Noto Sans Arabic', 'IBM Plex Sans Arabic', sans-serif;
+  }
+}
+
+/* Glassmorphism & Custom Industrial Accents */
+.glass-panel {
+  background: rgba(15, 30, 38, 0.75);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(197, 160, 89, 0.18);
+}
+
+.glass-panel-hover {
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.glass-panel-hover:hover {
+  background: rgba(20, 42, 54, 0.88);
+  border-color: rgba(197, 160, 89, 0.45);
+  box-shadow: 0 12px 40px -10px rgba(0, 0, 0, 0.5), 0 0 20px rgba(197, 160, 89, 0.15);
+}
+
+.gold-gradient-text {
+  background: linear-gradient(135deg, #FFF0D0 0%, #E5C158 40%, #C5A059 80%, #9A7B39 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-border-gradient {
+  border-image: linear-gradient(to bottom right, rgba(229, 193, 88, 0.5), rgba(197, 160, 89, 0.1), rgba(15, 61, 76, 0.3)) 1;
+}
+
+.industrial-grid-bg {
+  background-image: radial-gradient(rgba(197, 160, 89, 0.12) 1px, transparent 1px), radial-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+  background-size: 32px 32px;
+  background-position: 0 0, 16px 16px;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0B1519;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1A3440;
+  border-radius: 4px;
+  border: 1px solid rgba(197, 160, 89, 0.2);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #C5A059;
+}
+
